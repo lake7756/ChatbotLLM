@@ -1,6 +1,6 @@
 // Provides CopilotLLM and getCopilotTokenViaInternalEndpoint
 
-const COPILOT_CHAT_URL = "https://api.business.githubcopilot.com/chat/completions";
+const COPILOT_CHAT_URL = "https://api.business.githubcopilot.com/";
 
 class CopilotLLM {
   constructor(token, model = "gpt-4.1", timeout = 60000) {
